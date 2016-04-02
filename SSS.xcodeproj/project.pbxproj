@@ -10,7 +10,6 @@
 		9BE893AE1CAF237E0098EECE /* PostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE893AD1CAF237E0098EECE /* PostsController.swift */; };
 		9BE893B31CAF26D30098EECE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE893B21CAF26D30098EECE /* Post.swift */; };
 		9BE893B51CB06C280098EECE /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE893B41CB06C280098EECE /* Server.swift */; };
-		9BE893B71CB06F530098EECE /* ServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE893B61CB06F530098EECE /* ServerTests.swift */; };
 		9BE8F0EE1CAD5FCB002A561E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8F0ED1CAD5FCB002A561E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +30,7 @@
 		9BE893B21CAF26D30098EECE /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9BE893B41CB06C280098EECE /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		9BE893B61CB06F530098EECE /* ServerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTests.swift; sourceTree = "<group>"; };
+		9BE893B81CB07D1D0098EECE /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		9BE8F0E21CAD5F9A002A561E /* SSS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SSS; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE8F0ED1CAD5FCB002A561E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BE8F0EF1CAD6011002A561E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -50,6 +50,7 @@
 		9BE893AF1CAF24070098EECE /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				9BE893B81CB07D1D0098EECE /* LinuxMain.swift */,
 				9BE893B01CAF241E0098EECE /* SSS */,
 			);
 			path = Tests;
@@ -151,7 +152,6 @@
 			files = (
 				9BE893B31CAF26D30098EECE /* Post.swift in Sources */,
 				9BE8F0EE1CAD5FCB002A561E /* main.swift in Sources */,
-				9BE893B71CB06F530098EECE /* ServerTests.swift in Sources */,
 				9BE893B51CB06C280098EECE /* Server.swift in Sources */,
 				9BE893AE1CAF237E0098EECE /* PostsController.swift in Sources */,
 			);

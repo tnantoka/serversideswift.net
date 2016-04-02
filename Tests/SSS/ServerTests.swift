@@ -3,6 +3,12 @@ import XCTest
 @testable import Vapor
 
 class ServerTests: XCTestCase {
+    static var allTests: [(String, ServerTests -> () throws -> Void)] {
+        return [
+                   ("testServer", testServer),
+        ]
+    }
+    
     func testServer() {
         let server = Server()
         server.app.bootProviders()

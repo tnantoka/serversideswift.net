@@ -16,14 +16,22 @@ final class Post {
     init?(id: String) {
         guard let id = Int(id) else { return nil }
         let path = "\(Post.postDir)\(id).html"
-        guard NSFileManager.defaultManager().fileExists(atPath: path) else { return nil }
+        #if os(Linux)
+            guard NSFileManager.defaultManager().fileExistsAtPath(path) else { return nil }
+        #else
+            guard NSFileManager.defaultManager().fileExists(atPath: path) else { return nil }
+        #endif
         self.id = id
         self.path = path
     }
     
     static var all: [Post] {
         do {
-            let filenames = try NSFileManager.defaultManager().contentsOfDirectory(atPath: postDir)
+            #if os(Linux)
+                let filenames = try NSFileManager.defaultManager().contentsOfDirectoryAtPath(postDir)
+            #else
+                let filenames = try NSFileManager.defaultManager().contentsOfDirectory(atPath: postDir)
+            #endif
             let posts = filenames.map { Post(filename: $0) }.flatMap { $0 }
             return posts.sorted { $0.id > $1.id }
         } catch {
