@@ -1,0 +1,15 @@
+{{< layout }}
+  {{$ title }}{{ post.title }}{{/ title }}
+
+  {{$ content }}
+    <article>
+      <div class="post-preview">
+        <a href="/posts/{{ id }}">
+          <h2 class="post-title">{{ post.title }}</h2>
+        </a>
+        <p class="post-meta">Posted by <a href="https://twitter.com/tnantoka">tnantoka</a> on {{ date }}</p>
+      </div>
+      {{{ post.body }}}
+    </article>
+  {{/ content }}
+{{/ layout }}
