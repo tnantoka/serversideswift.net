@@ -4,7 +4,7 @@ import XCTest
 @testable import SSSTestSuite
 
 XCTMain([
-    testCase(ConfigTests.allTests),
+    testCase(ServerTests.allTests),
 ])
 
 #endif
