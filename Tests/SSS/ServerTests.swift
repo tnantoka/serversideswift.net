@@ -1,5 +1,6 @@
 import XCTest
 import Foundation
+import String
 @testable import SSS
 @testable import Vapor
 
@@ -29,9 +30,9 @@ class ServerTests: XCTestCase {
             var bytes = try result(request: request).data
             
             let utf8 = NSData(bytes: &bytes , length: bytes.count)
-            let string = String(data: utf8, encoding: NSUTF8StringEncoding)
-            XCTAssert(string?.range(of: "ServerSideSwift.net") != nil)
-            XCTAssert(string?.hasPrefix("<!DOCTYPE html>") ?? false)
+            let string = String(data: utf8, encoding: NSUTF8StringEncoding)!
+            XCTAssertTrue(string.index(of: "ServerSideSwift.net") != nil)
+            XCTAssertTrue(string.starts(with: "<!DOCTYPE html>"))
         } catch {
             XCTFail()
         }
