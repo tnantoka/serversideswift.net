@@ -24,7 +24,6 @@ class ServerTests: XCTestCase {
             body: []
         )
         
-        "aa"
         do {
             let result = server.app.router.route(request)!
             var bytes = try result(request: request).data
