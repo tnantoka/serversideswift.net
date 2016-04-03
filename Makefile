@@ -11,6 +11,6 @@ test:
 clean:
 	swift build --clean
 	rm -rf Packages
-release: clean
+release:
 	swift build --configuration release
 
