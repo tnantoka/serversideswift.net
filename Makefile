@@ -1,7 +1,7 @@
 build:
 	swift build
 run: build
-	.build/debug/SSS
+	.build/debug/SSSMain
 test:
 	swift build --fetch
 	rm -rf Packages/*/Tests

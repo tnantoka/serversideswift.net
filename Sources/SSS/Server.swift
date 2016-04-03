@@ -1,10 +1,10 @@
 import Vapor
 import VaporZewoMustache
 
-struct Server {
+public struct Server {
     let app: Application
     
-    init() {
+    public init() {
         let app = Application()
         self.app = app
         
@@ -17,7 +17,7 @@ struct Server {
         Post.postDir = "\(app.workDir)/_posts/"
     }
     
-    func start(port: Int) {
+    public func start(port: Int) {
         app.start(port: port)
     }
 }

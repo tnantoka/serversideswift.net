@@ -70,9 +70,16 @@
 				9BE893AD1CAF237E0098EECE /* PostsController.swift */,
 				9BE893B21CAF26D30098EECE /* Post.swift */,
 				9BE893B41CB06C280098EECE /* Server.swift */,
-				9BE8F0ED1CAD5FCB002A561E /* main.swift */,
 			);
 			path = SSS;
+			sourceTree = "<group>";
+		};
+		9BE893BB1CB0D09A0098EECE /* SSSMain */ = {
+			isa = PBXGroup;
+			children = (
+				9BE8F0ED1CAD5FCB002A561E /* main.swift */,
+			);
+			path = SSSMain;
 			sourceTree = "<group>";
 		};
 		9BE8F0D91CAD5F9A002A561E = {
@@ -96,6 +103,7 @@
 		9BE8F0EC1CAD5FCB002A561E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9BE893BB1CB0D09A0098EECE /* SSSMain */,
 				9BE893BA1CB08F1C0098EECE /* SSS */,
 			);
 			path = Sources;
