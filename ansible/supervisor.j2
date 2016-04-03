@@ -1,0 +1,5 @@
+[program:{{ item.name }}]
+command=/var/www/{{ item.name }}/.build/release/{{ item.name }}Main serve --ip=127.0.0.1 --port={{ item.port }}
+directory=/var/www/{{ item.name }}
+stdout_logfile=/var/log/supervisor/%(program_name)-stdout.log
+stderr_logfile=/var/log/supervisor/%(program_name)-stderr.log
