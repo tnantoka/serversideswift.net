@@ -1,9 +1,9 @@
 ---
-date: 2017-03-15 23:53:23 +0900
-title: Welcome to Spelt
+date: 2016-04-02
+title: "ServerSideSwift.net はじめました"
 layout: post
 ---
 
-Go ahead and find this post in your '_posts' directory to make changes. Running `spelt preview` launches a local web server and regenerates your site when you make changes to any file in your project directory.
+ムームードメインさんが、[先着1,000名様に「.net」を初年度無料でご提供！](https://muumuu-domain.com/?mode=info&amp;id=3242) という太っ腹なキャンペーンをやっていたので、思いつきで取ったドメイン。
 
-When you're ready to add more posts, simply create a new markdown file in your `_posts` directory and include the neccessary front matter. Take a look at the source for this post to see how it works.
+とりあえず、絶賛勉強中のサーバーサイドSwift絡みのメモでも書き溜めてみようかと思います。
