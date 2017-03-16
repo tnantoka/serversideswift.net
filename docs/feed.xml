@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Blog Title</title>
+    <description>My site description
+</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Mar 2017 22:50:18 +0900</pubDate>
+    <lastBuildDate>Thu, 16 Mar 2017 22:50:18 +0900</lastBuildDate>
+    <generator>Spelt</generator>
+    
+      <item>
+        <title>Server-Side Swift Meetup #tsssmeetup</title>
+        <description>先月、3月7日にServer-Side Swift Meetupというのがあったらしい。
+
+- https://one-team.com/blog/ja/2016-03-07-swift-meetup/
+- http://tokyo-ss-swift.connpass.com/event/27667/presentation/
+
+以下の様な発表があった模様。
+
+## Introduction of Slimane And Server Side Swift
+
+https://speakerdeck.com/noppoman/introduction-of-slimane-and-server-side-swift-japanese
+
+[Slimane](https://github.com/noppoMan/Slimane)っていうExpressっぽいWebフレームワークを作ったよ、という話。
+
+## SwiftでC言語のライブラリを使おう
+
+https://speakerdeck.com/yusukeito/swiftdecyan-yu-falseraiburariwoshi-ou
+
+ImageMagickを例にCのライブラリをSwiftから呼ぶ方法を解説。
+
+## Swift で開発した Web アプリケーションを Amazon EC2 Container Services で運用する
+
+https://speakerdeck.com/ngs/swift-tekai-fa-sita-web-ahurikesiyonwo-amazon-ec2-container-services-teyun-yong-suru
+
+[Swifton](https://github.com/necolt/Swifton)製のアプリをECSで動かす話。
+
+参加できるのは少ないと思うけど、発表資料は参考になるので勉強会情報もWatchしよう。
+</description>
+        <pubDate>Wed, 06 Apr 2016 00:00:00 +0900</pubDate>
+        <link>/2016/04/06/tsssmeetup.html</link>
+        <guid isPermaLink="true">/2016/04/06/tsssmeetup.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Vaporに出したPull Requestがマージされた</title>
+        <description>単なるタイポの修正だけどマージされるのはやっぱり嬉しい。
+https://github.com/qutheory/vapor/pull/167
+
+Vaporは使いやすくてお気に入りなので、今後もできることがあれば貢献していきたい。
+</description>
+        <pubDate>Mon, 04 Apr 2016 00:00:00 +0900</pubDate>
+        <link>/2016/04/04/vapor-pr-merged.html</link>
+        <guid isPermaLink="true">/2016/04/04/vapor-pr-merged.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>情報収集源</title>
+        <description>Twitter 検索をよく見ています。
+
+- https://twitter.com/search?f=tweets&amp;amp;vertical=default&amp;amp;q=server%20side%20swift&amp;amp;src=typd
+- https://twitter.com/search?f=tweets&amp;amp;vertical=default&amp;amp;q=%E3%82%B5%E3%83%BC%E3%83%90%20%E3%82%B5%E3%82%A4%E3%83%89%20swift&amp;amp;src=typd
+
+また、同じ単語でGoogle アラートも設定しています。
+</description>
+        <pubDate>Sun, 03 Apr 2016 00:00:00 +0900</pubDate>
+        <link>/2016/04/03/sources.html</link>
+        <guid isPermaLink="true">/2016/04/03/sources.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ServerSideSwift.net はじめました</title>
+        <description>ムームードメインさんが、[先着1,000名様に「.net」を初年度無料でご提供！](https://muumuu-domain.com/?mode=info&amp;amp;id=3242) という太っ腹なキャンペーンをやっていたので、思いつきで取ったドメイン。
+
+とりあえず、絶賛勉強中のサーバーサイドSwift絡みのメモでも書き溜めてみようかと思います。
+</description>
+        <pubDate>Sat, 02 Apr 2016 00:00:00 +0900</pubDate>
+        <link>/2016/04/02/welcome.html</link>
+        <guid isPermaLink="true">/2016/04/02/welcome.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
