@@ -6,3 +6,10 @@ description: >
 url: ""
 date_format: "MMM dd, yyyy"
 paginate: 5
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  post:
+    minute_read:    'minute read'
