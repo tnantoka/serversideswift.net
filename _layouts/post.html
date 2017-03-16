@@ -6,7 +6,7 @@ layout: default
   <h1>{{ page.title }}</h1>
   <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
   <span class="post-meta small">
-    {{ content | strip_html | number_of_words | divided_by: 180 }}
+    {{ content | strip_html | number_of_words | divided_by: 180 | ceil }}
     {{ site.text.post.minute_read }}
   </span>
 </div>
