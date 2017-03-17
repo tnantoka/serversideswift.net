@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Blog Title</title>
-    <description>My site description
-</description>
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Mar 2017 22:50:18 +0900</pubDate>
-    <lastBuildDate>Thu, 16 Mar 2017 22:50:18 +0900</lastBuildDate>
+    <title>Server-Side Swift</title>
+    <description>Apple発のオープンソースプログラミング言語Swiftによるサーバーサイド開発の日本語情報サイト。サーバーサイドSwiftの入門やライブラリまとめ、実際に動いているサービスの紹介など。</description>
+    <link>http://serversideswift.net/</link>
+    <atom:link href="http://serversideswift.net//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 18 Mar 2017 06:47:35 +0900</pubDate>
+    <lastBuildDate>Sat, 18 Mar 2017 06:47:35 +0900</lastBuildDate>
     <generator>Spelt</generator>
+    
+      <item>
+        <title>サーバーサイドSwiftをはじめてみよう</title>
+        <description>ずっと放置していたこのサイトですが、サーバーサイドSwiftのゆるふわ入門記事を書いてみました。
+
+http://hello.serversideswift.net/
+
+記事の中で作ったものはこちらです。
+
+http://nsurl.serversideswift.net/ 
+
+NSURLのpropertyやmethodの結果をブラウザ上で見れるものです。
+</description>
+        <pubDate>Wed, 04 Jan 2017 00:00:00 +0900</pubDate>
+        <link>http://serversideswift.net//2017/01/04/hello.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2017/01/04/hello.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Server-Side Swift Meetup #tsssmeetup</title>
@@ -40,8 +58,8 @@ https://speakerdeck.com/ngs/swift-tekai-fa-sita-web-ahurikesiyonwo-amazon-ec2-co
 参加できるのは少ないと思うけど、発表資料は参考になるので勉強会情報もWatchしよう。
 </description>
         <pubDate>Wed, 06 Apr 2016 00:00:00 +0900</pubDate>
-        <link>/2016/04/06/tsssmeetup.html</link>
-        <guid isPermaLink="true">/2016/04/06/tsssmeetup.html</guid>
+        <link>http://serversideswift.net//2016/04/06/tsssmeetup.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2016/04/06/tsssmeetup.html</guid>
         
         
       </item>
@@ -54,8 +72,8 @@ https://github.com/qutheory/vapor/pull/167
 Vaporは使いやすくてお気に入りなので、今後もできることがあれば貢献していきたい。
 </description>
         <pubDate>Mon, 04 Apr 2016 00:00:00 +0900</pubDate>
-        <link>/2016/04/04/vapor-pr-merged.html</link>
-        <guid isPermaLink="true">/2016/04/04/vapor-pr-merged.html</guid>
+        <link>http://serversideswift.net//2016/04/04/vapor-pr-merged.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2016/04/04/vapor-pr-merged.html</guid>
         
         
       </item>
@@ -70,8 +88,8 @@ Vaporは使いやすくてお気に入りなので、今後もできることが
 また、同じ単語でGoogle アラートも設定しています。
 </description>
         <pubDate>Sun, 03 Apr 2016 00:00:00 +0900</pubDate>
-        <link>/2016/04/03/sources.html</link>
-        <guid isPermaLink="true">/2016/04/03/sources.html</guid>
+        <link>http://serversideswift.net//2016/04/03/sources.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2016/04/03/sources.html</guid>
         
         
       </item>
@@ -83,8 +101,8 @@ Vaporは使いやすくてお気に入りなので、今後もできることが
 とりあえず、絶賛勉強中のサーバーサイドSwift絡みのメモでも書き溜めてみようかと思います。
 </description>
         <pubDate>Sat, 02 Apr 2016 00:00:00 +0900</pubDate>
-        <link>/2016/04/02/welcome.html</link>
-        <guid isPermaLink="true">/2016/04/02/welcome.html</guid>
+        <link>http://serversideswift.net//2016/04/02/welcome.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2016/04/02/welcome.html</guid>
         
         
       </item>
