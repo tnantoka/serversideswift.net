@@ -5,9 +5,28 @@
     <description>Apple発のオープンソースプログラミング言語Swiftによるサーバーサイド開発の日本語情報サイト。サーバーサイドSwiftの入門やライブラリまとめ、実際に動いているサービスの紹介など。</description>
     <link>http://serversideswift.net/</link>
     <atom:link href="http://serversideswift.net//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Mar 2017 06:47:35 +0900</pubDate>
-    <lastBuildDate>Sat, 18 Mar 2017 06:47:35 +0900</lastBuildDate>
+    <pubDate>Sat, 18 Mar 2017 07:12:43 +0900</pubDate>
+    <lastBuildDate>Sat, 18 Mar 2017 07:12:43 +0900</lastBuildDate>
     <generator>Spelt</generator>
+    
+      <item>
+        <title>hello.serversideswift.netの作り方</title>
+        <description>以下の入門記事ですが、KituraをBluemixで動かして、Markdownのコンテンツを公開しています。
+
+http://hello.serversideswift.net/
+
+せっかくなので、その作り方もまとめてみました。
+
+http://hello.serversideswift.net/1
+
+よろしければどうぞ。
+</description>
+        <pubDate>Wed, 04 Jan 2017 23:59:59 +0900</pubDate>
+        <link>http://serversideswift.net//2017/01/04/how-to-make-hello.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2017/01/04/how-to-make-hello.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>サーバーサイドSwiftをはじめてみよう</title>
@@ -21,7 +40,7 @@ http://nsurl.serversideswift.net/
 
 NSURLのpropertyやmethodの結果をブラウザ上で見れるものです。
 </description>
-        <pubDate>Wed, 04 Jan 2017 00:00:00 +0900</pubDate>
+        <pubDate>Wed, 04 Jan 2017 23:59:58 +0900</pubDate>
         <link>http://serversideswift.net//2017/01/04/hello.html</link>
         <guid isPermaLink="true">http://serversideswift.net//2017/01/04/hello.html</guid>
         
