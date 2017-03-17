@@ -12,3 +12,7 @@ text:
     older: 'Older'
   post:
     minute_read: 'minute read'
+
+google_analytics: "UA-75934247-1"
+disqus_shortname: "serversideswift-net"
+ad: 1
