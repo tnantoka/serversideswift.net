@@ -1,9 +1,8 @@
 # Site settings
-title: "My Blog Title"
-description: >
-  My site description
+title: "Server-Side Swift"
+description: Apple発のオープンソースプログラミング言語Swiftによるサーバーサイド開発の日本語情報サイト。サーバーサイドSwiftの入門やライブラリまとめ、実際に動いているサービスの紹介など。
 
-url: ""
+url: "http://serversideswift.net/"
 date_format: "MMM dd, yyyy"
 paginate: 5
 
@@ -12,4 +11,4 @@ text:
     newer: 'Newer'
     older: 'Older'
   post:
-    minute_read:    'minute read'
+    minute_read: 'minute read'
