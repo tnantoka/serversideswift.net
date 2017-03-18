@@ -5,9 +5,67 @@
     <description>Apple発のオープンソースプログラミング言語Swiftによるサーバーサイド開発の日本語情報サイト。サーバーサイドSwiftの入門やライブラリまとめ、実際に動いているサービスの紹介など。</description>
     <link>http://serversideswift.net/</link>
     <atom:link href="http://serversideswift.net//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Mar 2017 07:12:43 +0900</pubDate>
-    <lastBuildDate>Sat, 18 Mar 2017 07:12:43 +0900</lastBuildDate>
+    <pubDate>Sat, 18 Mar 2017 20:57:26 +0900</pubDate>
+    <lastBuildDate>Sat, 18 Mar 2017 20:57:26 +0900</lastBuildDate>
     <generator>Spelt</generator>
+    
+      <item>
+        <title>Swift製のブログエンジンまとめ</title>
+        <description>ブログは作りやすいからかそれなりの数が公開されています。その中からアクティブなものをリストアップ。
+
+- [isaced/NSPress: A Swift Blogging Platform. (Vapor)](https://github.com/isaced/NSPress)  
+素朴なブログ。とりあえず始めるにはよさそう。
+- [brokenhandsio/SteamPress: A Blogging Engine and Platform written in Swift for use with the Vapor Framework](https://github.com/brokenhandsio/SteamPress)  
+Vaporのサイトに埋め込めるエンジン。テストも書かれていて期待。
+- [brokenhandsio/SteamPressExample: An example site for using SteamPress](https://github.com/brokenhandsio/SteamPressExample)  
+SteamPressのサンプル。
+- [rolandleth/rolandleth.com: My little corner of the interwebz](https://github.com/rolandleth/rolandleth.com)  
+実際に作者のブログに使われている。Ruby → Node → Swiftと変遷してきた履歴が見れて面白い。
+- [PerfectExamples/Perfect-Blog-Mustache: An Example Blog &amp;amp; Mustache Template System for Perfect](https://github.com/PerfectExamples/Perfect-Blog-Mustache)  
+Perfectのサンプル。
+
+</description>
+        <pubDate>Sat, 18 Mar 2017 23:59:59 +0900</pubDate>
+        <link>http://serversideswift.net//2017/03/18/blog-engines.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2017/03/18/blog-engines.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Swift製のCMSまとめ</title>
+        <description>CMSを名乗っているものは少ないですが、いくつかあったのでご紹介。
+
+- [hyperoslo/novel: 📖 A content management system (CMS) built in Swift](https://github.com/hyperoslo/novel)  
+Vaporを使用。ライブデモあり。
+- [rb-de0/tech.reb-dev.com: A simple cms server written by swift.](https://github.com/rb-de0/tech.reb-dev.com)  
+同じくVaporを使用。国産。作者さんのサイトの運営に実用されているようです。
+</description>
+        <pubDate>Sat, 18 Mar 2017 23:59:58 +0900</pubDate>
+        <link>http://serversideswift.net//2017/03/18/cms.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2017/03/18/cms.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Swift製の静的サイトジェネレーターまとめ</title>
+        <description>Static Site GeneratorはサーバーサイドSwiftかと言われると微妙ですが、そんなに厳密にするつもりはないので紹介します。
+
+- [njdehoog/Spelt: Delightfully simple static site generator written in Swift](https://github.com/njdehoog/Spelt)  
+Macアプリ用に作られたもの。Linuxは考慮されていませんが、Macでは普通に動きます。
+- [sorbetto/sorbetto: A (work-in-progress) plugin-based static site generator written in Swift.](https://github.com/sorbetto/sorbetto)  
+コマンドラインツールはまだない。`../`で依存を参照してたり、製作中という感じです。
+
+このサイトはSpeltを使って構築しています。
+
+</description>
+        <pubDate>Sat, 18 Mar 2017 23:59:57 +0900</pubDate>
+        <link>http://serversideswift.net//2017/03/18/static-site-generators.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2017/03/18/static-site-generators.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>hello.serversideswift.netの作り方</title>
