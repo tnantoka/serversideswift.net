@@ -5,9 +5,53 @@
     <description>Apple発のオープンソースプログラミング言語Swiftによるサーバーサイド開発の日本語情報サイト。サーバーサイドSwiftの入門やライブラリまとめ、実際に動いているサービスの紹介など。</description>
     <link>http://serversideswift.net/</link>
     <atom:link href="http://serversideswift.net//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Mar 2017 22:11:18 +0900</pubDate>
-    <lastBuildDate>Sat, 25 Mar 2017 22:11:18 +0900</lastBuildDate>
+    <pubDate>Sun, 26 Mar 2017 21:10:34 +0900</pubDate>
+    <lastBuildDate>Sun, 26 Mar 2017 21:10:34 +0900</lastBuildDate>
     <generator>Spelt</generator>
+    
+      <item>
+        <title>try! Swift Tokyo 2017 サーバーサイドSwift関連Talk</title>
+        <description>[TOKYO - try! Swift](https://www.tryswift.co/tokyo/jp)
+
+昨年も参加しましたが「Swiftはこんな使い方もあって面白い！みんな使うべき！！」という勢いのある感じから、今年は全体的に「Swift便利。みんな使ってるし知ってる。さてそれをどうプロダクトの価値につなげようか？」という風に成熟した印象を受けました。
+
+そんな中、サーバーサイドSwiftは成熟とはまだまだほど遠いわけですが、以下の3つのTalkがありました。
+
+## Building a Swift Web API and Application Together
+
+多くの人がswiftenvでお世話になっていると思われる、Kyleさんの発表です。  
+
+Web APIを作る話ですが、Swiftに限らないAPIデザインの話が中心です。
+[Frank](https://github.com/kylef/Frank)は初めて知りました。小さくて好きな感じなのですが、保守されてなさそうで残念です。
+
+&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;8536ace993bd4a16b11fa8bdd80682cf&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+## Swift Outside the Box
+
+[サーバーサイドSwiftを実運用してみた | カメリオ開発者ブログ](http://aial.shiroyagi.co.jp/2016/02/serverside-swift-in-production/)で有名なItoさんの発表です。
+
+既にCで枯れたライブラリがあるなら、それをSwiftから呼ぶのは簡単だよ、というお話がありました。
+また、まずはシェルスクリプトの代わりにSwiftを使い始めてみるのもいいんじゃない？というのも印象に残っています。
+そちらに関しては、[Swift Scripting](https://realm.io/jp/news/swift-scripting/)も参考になりそうです。
+
+&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;c804ff21ddb54e0b9cce147e2d434c9b&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+## Server-Side Swift as a Live Example
+
+私の発表です。Live Codingが求められている感じだったのでやってみました。
+
+一応スライドだけ見ても手順を再現できるようにしているつもりです。
+
+&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;68ad85e7b0ae4fee85b32edab1ada3fb&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+僕ももっとちゃんとしたアプリで、サーバーサイドSwiftを実際に使っていきたいな、と思いました。
+</description>
+        <pubDate>Sun, 26 Mar 2017 00:00:00 +0900</pubDate>
+        <link>http://serversideswift.net//2017/03/26/tryswift-tokyo-2017.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2017/03/26/tryswift-tokyo-2017.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>サーバーサイドSwiftブックマーク #1</title>
@@ -185,19 +229,6 @@ Vaporは使いやすくてお気に入りなので、今後もできることが
         <pubDate>Sun, 03 Apr 2016 00:00:00 +0900</pubDate>
         <link>http://serversideswift.net//2016/04/03/sources.html</link>
         <guid isPermaLink="true">http://serversideswift.net//2016/04/03/sources.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ServerSideSwift.net はじめました</title>
-        <description>ムームードメインさんが、[先着1,000名様に「.net」を初年度無料でご提供！](https://muumuu-domain.com/?mode=info&amp;amp;id=3242) という太っ腹なキャンペーンをやっていたので、思いつきで取ったドメイン。
-
-とりあえず、絶賛勉強中のサーバーサイドSwift絡みのメモでも書き溜めてみようかと思います。
-</description>
-        <pubDate>Sat, 02 Apr 2016 00:00:00 +0900</pubDate>
-        <link>http://serversideswift.net//2016/04/02/welcome.html</link>
-        <guid isPermaLink="true">http://serversideswift.net//2016/04/02/welcome.html</guid>
         
         
       </item>
