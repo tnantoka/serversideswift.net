@@ -12,3 +12,5 @@ Zewo, Kitura, Vapor, Perfectの比較。力作。
 家系図を作るAPI。iOSアプリもセットで。
 - [Server Side Swift with Perfect - Part 1: Server Side | Ray Wenderlich](https://videos.raywenderlich.com/courses/server-side-swift-with-perfect/lessons/1)  
 ご存知raywenderlichさんのところのビデオチュートリアル。現在6回まで公開されており全部無料。
+- [Vapor as a web framework - Qiita](http://qiita.com/rb-de0/items/c67957a930a593ba4734)  
+[Swift Tweets](https://swift-tweets.github.io/)でのの発表内容まとめ。
