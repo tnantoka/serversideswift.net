@@ -5,9 +5,31 @@
     <description>Apple発のオープンソースプログラミング言語Swiftによるサーバーサイド開発の日本語情報サイト。サーバーサイドSwiftの入門やライブラリまとめ、実際に動いているサービスの紹介など。</description>
     <link>http://serversideswift.net/</link>
     <atom:link href="http://serversideswift.net//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Apr 2017 22:32:14 +0900</pubDate>
-    <lastBuildDate>Mon, 17 Apr 2017 22:32:14 +0900</lastBuildDate>
+    <pubDate>Thu, 04 May 2017 21:05:54 +0900</pubDate>
+    <lastBuildDate>Thu, 04 May 2017 21:05:54 +0900</lastBuildDate>
     <generator>Spelt</generator>
+    
+      <item>
+        <title>サーバーサイドSwiftブックマーク #3</title>
+        <description>意外とコンスタントにネタありますね。
+
+- [marciok/katan: Swift playground with a micro web server that replies &amp;quot;Hello world!&amp;quot; to every request](https://github.com/marciok/katan)  
+Socketを使ってHello Worldを応答するサーバを作る。
+- [KituraとサーバーサイドSwift](https://www.slideshare.net/YusukeMorizumi1/kituraswift)  
+IBMの人によるKituraについてのスライド。
+- [Episode 45 – Server-Side Swift: Routing · Swift Talk · objc.io](https://talk.objc.io/episodes/S01E45-server-side-swift-routing)  
+無料エピソード。他にもServer-Side Swiftについて扱った回あり。
+- [Devoxx 17 - Swift server-side](https://www.slideshare.net/XebiaFrance/devoxx-17-swift-serverside)  
+フランス語だけどとてもまとまったスライド。
+- [Server side SWIFT: Vapor, MySQL, and NGINX with SSL-cert running on Ubuntu instance from…](https://medium.com/@pumplerod/server-side-swift-vapor-mysql-and-nginx-with-ssl-cert-running-on-ubuntu-instance-from-e59f50f450e2)  
+DigitalOcean上に古典的な構成でVaporを立てる話。
+</description>
+        <pubDate>Thu, 04 May 2017 00:00:00 +0900</pubDate>
+        <link>http://serversideswift.net//2017/05/04/sss-bookmarks-3.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2017/05/04/sss-bookmarks-3.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>サーバーサイドSwiftブックマーク #2</title>
@@ -219,20 +241,6 @@ https://speakerdeck.com/ngs/swift-tekai-fa-sita-web-ahurikesiyonwo-amazon-ec2-co
         <pubDate>Wed, 06 Apr 2016 00:00:00 +0900</pubDate>
         <link>http://serversideswift.net//2016/04/06/tsssmeetup.html</link>
         <guid isPermaLink="true">http://serversideswift.net//2016/04/06/tsssmeetup.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Vaporに出したPull Requestがマージされた</title>
-        <description>単なるタイポの修正だけどマージされるのはやっぱり嬉しい。
-https://github.com/qutheory/vapor/pull/167
-
-Vaporは使いやすくてお気に入りなので、今後もできることがあれば貢献していきたい。
-</description>
-        <pubDate>Mon, 04 Apr 2016 00:00:00 +0900</pubDate>
-        <link>http://serversideswift.net//2016/04/04/vapor-pr-merged.html</link>
-        <guid isPermaLink="true">http://serversideswift.net//2016/04/04/vapor-pr-merged.html</guid>
         
         
       </item>
