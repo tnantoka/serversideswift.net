@@ -5,9 +5,33 @@
     <description>Apple発のオープンソースプログラミング言語Swiftによるサーバーサイド開発の日本語情報サイト。サーバーサイドSwiftの入門やライブラリまとめ、実際に動いているサービスの紹介など。</description>
     <link>http://serversideswift.net/</link>
     <atom:link href="http://serversideswift.net//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 May 2017 21:05:54 +0900</pubDate>
-    <lastBuildDate>Thu, 04 May 2017 21:05:54 +0900</lastBuildDate>
+    <pubDate>Mon, 03 Jul 2017 13:10:12 +0900</pubDate>
+    <lastBuildDate>Mon, 03 Jul 2017 13:10:12 +0900</lastBuildDate>
     <generator>Spelt</generator>
+    
+      <item>
+        <title>サーバーサイドSwiftブックマーク #4</title>
+        <description>6月の更新を忘れていたので2ヶ月分。
+
+- [Building a command line tool using the Swift Package Manager](https://medium.com/@johnsundell/building-a-command-line-tool-using-the-swift-package-manager-3dd96ce360b1)  
+SPMでコマンドラインツールを作る。
+- [Swift Package Managerを使ってアプリアイコンの自動生成ツールを作ってみた – NET BIZ DIV. TECH BLOG](https://tech.recruit-mp.co.jp/mobile/post-12041/)  
+こちらはかなり実用的なツールを作る例。
+- [Vapor 2: Less code, more power. – Qutheory – Medium](https://medium.com/@qutheory/vapor-2-less-code-more-power-af1e1ec5affa)  
+2です。
+- [Serverless Server Side Swift with Hexaville – Yuki Takei – Medium](https://medium.com/@yukitakei/serverless-server-side-swift-with-hexaville-ef0e1788a20)  
+サーバーレスをSwiftで。
+- [Tokyo Server Side Swift meetup #8で発表してきた #tsssmeetup - ainameの日記](http://ainame.hateblo.jp/entry/2017/06/28/092816)  
+Sidekiqのクローン。
+- [Server Side Swiftを しばらく運用してみた話 // Speaker Deck](https://speakerdeck.com/yusukeito/server-side-swiftwo-sibarakuyun-yong-sitemitahua)  
+貴重な実運用。
+</description>
+        <pubDate>Mon, 03 Jul 2017 00:00:00 +0900</pubDate>
+        <link>http://serversideswift.net//2017/07/03/sss-bookmarks-4.html</link>
+        <guid isPermaLink="true">http://serversideswift.net//2017/07/03/sss-bookmarks-4.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>サーバーサイドSwiftブックマーク #3</title>
@@ -205,42 +229,6 @@ NSURLのpropertyやmethodの結果をブラウザ上で見れるものです。
         <pubDate>Wed, 04 Jan 2017 23:59:58 +0900</pubDate>
         <link>http://serversideswift.net//2017/01/04/hello.html</link>
         <guid isPermaLink="true">http://serversideswift.net//2017/01/04/hello.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Server-Side Swift Meetup #tsssmeetup</title>
-        <description>先月、3月7日にServer-Side Swift Meetupというのがあったらしい。
-
-- https://one-team.com/blog/ja/2016-03-07-swift-meetup/
-- http://tokyo-ss-swift.connpass.com/event/27667/presentation/
-
-以下の様な発表があった模様。
-
-## Introduction of Slimane And Server Side Swift
-
-https://speakerdeck.com/noppoman/introduction-of-slimane-and-server-side-swift-japanese
-
-[Slimane](https://github.com/noppoMan/Slimane)っていうExpressっぽいWebフレームワークを作ったよ、という話。
-
-## SwiftでC言語のライブラリを使おう
-
-https://speakerdeck.com/yusukeito/swiftdecyan-yu-falseraiburariwoshi-ou
-
-ImageMagickを例にCのライブラリをSwiftから呼ぶ方法を解説。
-
-## Swift で開発した Web アプリケーションを Amazon EC2 Container Services で運用する
-
-https://speakerdeck.com/ngs/swift-tekai-fa-sita-web-ahurikesiyonwo-amazon-ec2-container-services-teyun-yong-suru
-
-[Swifton](https://github.com/necolt/Swifton)製のアプリをECSで動かす話。
-
-参加できるのは少ないと思うけど、発表資料は参考になるので勉強会情報もWatchしよう。
-</description>
-        <pubDate>Wed, 06 Apr 2016 00:00:00 +0900</pubDate>
-        <link>http://serversideswift.net//2016/04/06/tsssmeetup.html</link>
-        <guid isPermaLink="true">http://serversideswift.net//2016/04/06/tsssmeetup.html</guid>
         
         
       </item>
